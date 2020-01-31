@@ -182,8 +182,19 @@ h5 {
 }
 
 .members-container {
-  width: 100%;
-  flex-flow: row wrap;
+  width: 40%;
+  margin-top: 5%;
+}
+
+.photoLeft {
+  border: 1px solid blue;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.photoRight {
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .member-photo {
