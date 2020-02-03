@@ -182,12 +182,56 @@ h5 {
 }
 
 .members-container {
-  width: 100%;
-  flex-flow: row wrap;
+  width: 40%;
+  margin-top: 5%;
+}
+
+.photoLeft {
+  border: 1px solid blue;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.photoRight {
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .member-photo {
   width: 180px;
   height: 180px;
+  border-radius: 50%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* hover effect */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Github */
+.fa-github {
+  color:black;
+  border-radius: 50%;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
+}
+
+/* Linkedin */
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
   border-radius: 50%;
 }
