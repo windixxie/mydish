@@ -241,22 +241,22 @@ body {
 }
 
 .home-footer {
-  
   display: flex;
   flex-direction: column;
-  margin-left: 150px;
+  align-items: center;
   width: 100%;
 }
 
 .home-footer .icons {
   display: flex;
   width: 60%; 
+  justify-content: center;
   margin-top: -40px;
 }
 
 .play-store,
 .apple-store {
-  margin-right: 50px;
+  margin: 0 50px;
   width: 150px;
 }
 .apple-store {
