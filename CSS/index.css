@@ -102,7 +102,8 @@ header,
 hgroup,
 menu,
 nav,
-section {
+section,
+div {
   display: block;
 }
 body {
@@ -148,8 +149,128 @@ h5 {
 /*     ------------------------HOME PAGE--------------------------     */
 
 .home-nav {
-  background-color: #60cd19;
+  background-color: #61cd19;
   padding: 1rem;
+}
+
+.home-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 10px;
+}
+
+.home-nav a {
+  margin: 0 15px;
+  font-family: "Muli", sans-serif;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.home-nav a:hover {
+  text-shadow: 0 0 5px black;
+}
+
+.home-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-container .main-img {
+  margin: 0 auto;
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+}
+
+.home-container .bar {
+  margin: -80px auto 20px;
+  width: 60%;
+  height: 1px;
+  border-bottom: 1px solid black;
+}
+
+.home-container p,
+.home-container h3 {
+  font-family: "Muli", sans-serif;
+  font-size: 20px;
+  font-weight: 400pt;
+}
+
+.home-container .img-text {
+  width: 90%;
+  height: 300px;
+  margin: 50px 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home-container .img,
+.home-container .text {
+  min-width: 45%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.home-container .text {
+  flex-direction: column;
+  background-color: #61cd19;
+  box-shadow: 0 0 10px gray;
+  border-radius: 3px;
+  padding: 25px 15px;
+}
+
+h3 {
+  font-family: "Muli", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.home-container .img-text .img img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+}
+body {
+  overflow-x: hidden;
+}
+
+.home-footer {
+  
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  width: 100%;
+}
+
+.home-footer .icons {
+  display: flex;
+  width: 60%; 
+  margin-top: -40px;
+}
+
+.play-store,
+.apple-store {
+  margin-right: 50px;
+  width: 150px;
+}
+.apple-store {
+  padding-top: 5px;
+}
+
+svg {
+  width: 150px;
+}
+
+.bottom {
+  height: 50px;
+  width: 100%;
+  background-color: #61cd19;
 }
 
 /*     ----------------------SUPPORT PAGE-------------------------     */
@@ -218,20 +339,20 @@ h5 {
 
 /* Github */
 .fa-github {
-  color:black;
+  color: black;
   border-radius: 50%;
 }
 
 /* Twitter */
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
   border-radius: 50%;
 }
 
 /* Linkedin */
 .fa-linkedin {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
   border-radius: 50%;
 }
